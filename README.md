@@ -6,6 +6,8 @@ A portable, local browser lab for reducing a **synthetic** failing configuration
 
 ## Try it
 
+[Open the live demo](https://estona815.github.io/reproslice-hackoctober-2026/) to try the three synthetic models without installing anything.
+
 Serve this directory using `python3 -m http.server 8883 --bind 127.0.0.1`, then open `http://127.0.0.1:8883/`. No package installation, account or API key is needed. `node --test engine.test.mjs` runs the engine checks with Node 20+.
 
 1. Keep **Conflicting flags**, then choose **Reduce configuration**. The 12-line sample retains the original CACHE and FRESH lines. Each single-line deletion passes.
@@ -31,4 +33,4 @@ Delta debugging is established work by Andreas Zeller and Ralf Hildebrandt: [Sim
 
 ## Submission state
 
-Local candidate. Native event registration is verified. An existing empty Devpost draft (submission1251377, project1496931) must be continued, never created again. No final submission, public deployment or award is claimed by these files.
+Submission to HackOctober MLH X Tech4hack was confirmed on October 22, 2026 (KST), for submission 1251377 and project 1496931. [View the Devpost project](https://devpost.com/software/reproslice). Submission confirmation is not an award or organizer acceptance decision.
